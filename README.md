@@ -14,7 +14,7 @@ http://themes.jsonresume.org/theme/onepage
 
 ```
 sudo npm install -g resume-cli
-git clone https://github.com/marc-bouvier-forks/jsonresume-theme-onepage-fr.git
+git clone https://github.com/marc-bouvier/jsonresume-theme-onepage-fr.git
 cd jsonresume-theme-onepage-fr
 resume serve
 ```
