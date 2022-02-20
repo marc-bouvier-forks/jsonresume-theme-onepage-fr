@@ -1,6 +1,12 @@
 var fs = require("fs");
 var Handlebars = require("handlebars");
 
+// Date format
+var DateFormats = {
+       	short: "DD/MM/YYYY",
+	monthYear: ""
+};
+
 COURSES_COLUMNS = 3;
 
 PREPEND_SUMMARY_CATEGORIES = [
