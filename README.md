@@ -7,6 +7,7 @@ Tries to fit as much information as possible onto a single page without making s
 
 ## Example
 
+> TODO: do a PR for this french theme to themes.jsonresume.org
 http://themes.jsonresume.org/theme/onepage
 
 ## Running
