@@ -3,7 +3,6 @@ var Handlebars = require("handlebars");
 
 // Date format
 var DateFormats = {
-       	short: "DD/MM/YYYY",
 	monthYear: "MMMM YYYY"
 };
 
