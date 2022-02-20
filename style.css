@@ -154,4 +154,11 @@ a {
   a {
     color: black;
   }
+  
+  /* No need to print social profiles links that cannot be printed.
+     transparent font to keep spacing shown at screen.
+  */
+  #profilesBlock a, #profilesBlock .divider{
+      color: transparent;
+  }
 }
