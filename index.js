@@ -6,7 +6,7 @@ var DateFormats = {
 	monthYear: "MMMM YYYY"
 };
 
-UI.registerHelper("formatDate", function(datetime, format) {
+Handlebars.registerHelper("formatDate", function(datetime, format) {
   if (moment) {
     // can use other formats like 'lll' too
     format = DateFormats[format] || format;
