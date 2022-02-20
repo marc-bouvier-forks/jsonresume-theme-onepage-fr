@@ -7,6 +7,17 @@ var DateFormats = {
 	monthYear: "MMMM YYYY"
 };
 
+UI.registerHelper("formatDate", function(datetime, format) {
+  if (moment) {
+    // can use other formats like 'lll' too
+    format = DateFormats[format] || format;
+    return moment(datetime).format(format);
+  }
+  else {
+    return datetime;
+  }
+});
+
 COURSES_COLUMNS = 3;
 
 PREPEND_SUMMARY_CATEGORIES = [
