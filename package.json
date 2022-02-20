@@ -5,7 +5,7 @@
   "author": "Marc Bouvier",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marc-bouvier-forks/jsonresume-theme-onepage-fr.git"
+    "url": "https://github.com/marc-bouvier/jsonresume-theme-onepage-fr.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -14,8 +14,8 @@
     "moment": "^2.29.1"
   },
   "bugs": {
-    "url": "https://github.com/marc-bouvier-forks/jsonresume-theme-onepage-fr/issues"
+    "url": "https://github.com/marc-bouvier/jsonresume-theme-onepage-fr/issues"
   },
-  "homepage": "https://github.com/marc-bouvier-forks/jsonresume-theme-onepage-fr",
+  "homepage": "https://github.com/marc-bouvier/jsonresume-theme-onepage-fr",
   "main": "index.js"
 }
