@@ -1,5 +1,6 @@
 var fs = require("fs");
 var Handlebars = require("handlebars");
+var moment = require("moment")
 
 // Date format
 var DateFormats = {
@@ -10,6 +11,7 @@ Handlebars.registerHelper("formatDate", function(datetime, format) {
   if (moment) {
     // can use other formats like 'lll' too
     format = DateFormats[format] || format;
+    moment.locale("fr")
     return moment(datetime).format(format);
   }
   else {
