@@ -4,7 +4,7 @@ var Handlebars = require("handlebars");
 // Date format
 var DateFormats = {
        	short: "DD/MM/YYYY",
-	monthYear: ""
+	monthYear: "MMMM YYYY"
 };
 
 COURSES_COLUMNS = 3;
