@@ -1,6 +1,7 @@
-# jsonresume-theme-onepage
+# jsonresume-theme-onepage-fr
 
-A compact theme for JSON Resume, designed for printing. 
+Un thème compact de JSON Resume, optimisé pour l'impression. 
+Fork de [ainsleyc/jsonresume-theme-onepage](https://github.com/ainsleyc/jsonresume-theme-onepage)
 
 Tries to fit as much information as possible onto a single page without making sections look cluttered.
 
@@ -12,8 +13,8 @@ http://themes.jsonresume.org/theme/onepage
 
 ```
 sudo npm install -g resume-cli
-git clone https://github.com/ainsleyc/jsonresume-theme-onepage.git
-cd jsonresume-theme-onepage
+git clone https://github.com/marc-bouvier-forks/jsonresume-theme-onepage-fr.git
+cd jsonresume-theme-onepage-fr
 resume serve
 ```
 You can print directly from the served html.
