@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Thème pour JSON Resume compact, optimisé pour l'impression en français",
   "author": "Marc Bouvier",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/marc-bouvier-forks/jsonresume-theme-onepage-fr.git"
