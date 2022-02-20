@@ -20,6 +20,12 @@ resume serve
 ```
 You can print directly from the served html.
 
+## Install as a npm dependency
+
+```bash
+npm install https://github.com/marc-bouvier/jsonresume-theme-onepage-fr
+```
+
 ## Options
 
 For the "experience" and "skills" sections, you can optionally replace the "highlights" list with a "details" list with this format:
