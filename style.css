@@ -80,8 +80,10 @@ a {
     float: right;
 }
 
+/* Page break if there is not enough room to contain the next section content. */
 .sectionContent .separator {
     height: 14px;
+    page-break-before: auto;
 }
 
 .sectionLine {
@@ -175,8 +177,4 @@ a {
         color: transparent;
     }
 
-    /* Page break if there is not enough room to contain the next section content*/
-    .sectionContent .separator {
-        page-break-before: auto;
-    }
 }
