@@ -89,6 +89,9 @@
                             {{/if}}
                         </div>
                         <div><a href='{{website}}'>{{website}}</a></div>
+                        {{#if summary}}
+                            <p>{{summary}}</p>
+                        {{/if}}
                         {{#if highlights.length}}
                             <ul class='highlights'>
                                 {{#each highlights}}
@@ -111,7 +114,6 @@
         </div>
         <div class='sectionLine'></div>
     {{/if}}
-    name date issuer url
     {{#if resume.certificates.length}}
         <div id='certificates'>
             <div class='sectionName'>
@@ -153,12 +155,16 @@
         <span class='title'>
           {{#if name}}{{name}}{{/if}}{{#if publisher}}, {{publisher}}{{/if}}
         </span>
+
                         {{#if releaseDate}}
                             <span class='date'>
           <span class='releaseDate'>{{formatDate releaseDate "monthYear"}}</span>
         </span>
                         {{/if}}
                     </div>
+                    {{#if summary}}
+                        <p>{{summary}}</p>
+                    {{/if}}
                     {{#if website}}
                         <div class='website'>
                             <a href='{{website}}'>{{website}}</a>
@@ -196,6 +202,9 @@
         </span>
                         {{/if}}
                     </div>
+                    {{#if summary}}
+                        <p>{{summary}}</p>
+                    {{/if}}
                     {{#if highlights.length}}
                         <ul class='highlights'>
                             {{#each highlights}}
@@ -227,6 +236,9 @@
                                                                                                            "monthYear"}}{{else}}
                                 Present{{/if}}
         </span>
+                        {{/if}}
+                        {{#if summary}}
+                            <p>{{summary}}</p>
                         {{/if}}
                         {{#if website}}
                             <div class='website'><a href='{{website}}'>{{website}}</a></div>
