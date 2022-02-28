@@ -29,9 +29,17 @@
       "endDate": "2014",
       "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
       "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
+        {
+          "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+          "comment": "Java"
+        },
+        {
+          "text": "Optimized an algorithm that holds the current world record for Weisman Scores",
+          "comment": "c++"
+        },
+        {
+          "text": "Successfully won Techcrunch Disrupt"
+        }
       ]
     }
   ],
@@ -83,17 +91,35 @@
     {
       "name": "Web Development",
       "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
+        {
+          "text": "HTML",
+          "comment": "expert"
+        },
+        {
+          "text": "CSS",
+          "comment": "expert"
+        },
+        {
+          "text": "Javascript",
+          "comment": "expert"
+        }
       ]
     },
     {
       "name": "Compression",
       "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
+        {
+          "text": "Mpeg",
+          "comment": "competent"
+        },
+        {
+          "text": "MP4",
+          "comment": "competent"
+        },
+        {
+          "text": "GIF",
+          "comment": "novice"
+        }
       ]
     }
   ],
