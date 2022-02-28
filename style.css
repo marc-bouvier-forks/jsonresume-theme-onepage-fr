@@ -154,11 +154,15 @@ a {
   a {
     color: black;
   }
-  
+
   /* No need to print social profiles links that cannot be printed.
      transparent font to keep spacing shown at screen.
   */
   #profilesBlock a, #profilesBlock .divider{
       color: transparent;
+  }
+  /* Page break if there is not enough room to contain the next section content*/
+  .sectionContent .separator {
+    page-break-before: auto;
   }
 }
